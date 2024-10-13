@@ -1,3 +1,8 @@
+* {
+    font-family: Roboto, Arial;
+    font-size: 20px;
+}
+
 body {
     background-color: lightgoldenrodyellow;
 }
@@ -15,13 +20,20 @@ body {
 }
 
 .main-container {
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
     width: 1000px;
     background-color: lightcoral;
+    align-items: center;
 }
 
 .right-container {
     /* display: flex; */
     flex: 1;
     background-color: lightblue;
+}
+
+.exercise {
+    background-color: lightgreen;
+    width: 50%;
 }
