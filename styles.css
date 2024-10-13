@@ -1,0 +1,27 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+.body-container {
+    display: flex;
+    border-style: solid;
+    border-color: aliceblue;
+}
+
+.left-container {
+    /* display: flex; */
+    flex: 1;
+    background-color: lightblue;
+}
+
+.main-container {
+    /* display: flex; */
+    width: 1000px;
+    background-color: lightcoral;
+}
+
+.right-container {
+    /* display: flex; */
+    flex: 1;
+    background-color: lightblue;
+}
